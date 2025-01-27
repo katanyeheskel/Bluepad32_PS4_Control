@@ -4,9 +4,6 @@
 int x_temp ;
 int x_temp ;
 
-int m = 34;
-int t = 30;
-int a = 23;
 ControllerPtr myControllers[BP32_MAX_GAMEPADS];
 
 // This callback gets called any time a new gamepad is connected.
