@@ -4,6 +4,8 @@
 int x_temp ;
 int x_temp ;
 
+int m = 34;
+
 ControllerPtr myControllers[BP32_MAX_GAMEPADS];
 
 // This callback gets called any time a new gamepad is connected.
@@ -45,7 +47,6 @@ void onDisconnectedController(ControllerPtr ctl) {
   }
 }
 
-// == SEE CONTROLLER VALUES IN SERIAL MONITOR == //
 
 void dumpGamepad(ControllerPtr ctl) {
   Serial.printf(
